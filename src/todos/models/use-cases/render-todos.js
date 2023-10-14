@@ -22,5 +22,4 @@ export const renderTodos = ( elementId, todos = [] ) => {
         element.append( createTodoHTML( todo ) );
     });
 
-    console.log({ elementId, todos })
 }
